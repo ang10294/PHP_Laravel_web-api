@@ -8,7 +8,7 @@
 ## База данных
 - Локальные миграции: sales, orders, stocks, incomes (посмотреть SQL dump).
 - Удаленная DB: q999200r_wb_api (таблицы: sales, orders, stocks, incomes).
-- Доступ к удаленной бд: https://gravity.beget.com/phpMyAdmin/index.php, user: q999200r_web_api , password: User1234AAA
+- [Доступ к удаленной бд](https://gravity.beget.com/phpMyAdmin/index.php) user: q999200r_web_api, password: User1234AAA
 ## Установлено
 - `composer install`
 - `php artisan migrate`
@@ -23,5 +23,5 @@
 
 ## Планируется:
 - создать интерфейс
-- развернуть в docker
-- выложить в продакшн
+
+## Стек: docker/docker-compose, php 8.1, Laravel 8, Laravel Octane
